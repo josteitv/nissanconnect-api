@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <name>Nissan Connect API</name>
-    <description>Java library for the Nissan Connect API</description>
+    <description>A Java library for the Nissan Connect API (also known as Carwings)</description>
     <url>https://github.com/josteitv/nissanconnect-api</url>
 
     <licenses>
