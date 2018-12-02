@@ -1,0 +1,10 @@
+{
+  "status": 200,
+  "responseFlag": "1",
+  "operationResult": "START_BATTERY",
+  "acContinueTime": "900",
+  "cruisingRangeAcOn": "127872.0",
+  "cruisingRangeAcOff": "131424.0",
+  "timeStamp": "2018-09-24 21:23:18",
+  "hvacStatus": "ON"
+}
