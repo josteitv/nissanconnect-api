@@ -21,8 +21,19 @@
         </license>
     </licenses>
 
+    <developers>
+        <developer>
+            <name>Jostein Tveit</name>
+            <email>josteitv@pvv.ntnu.no</email>
+            <organization>Tveit Solutions</organization>
+            <organizationUrl>https://tveit.solutions</organizationUrl>
+        </developer>
+    </developers>
+
     <scm>
-        <url>https://github.com/josteitv/nissanconnect-api</url>
+        <connection>scm:git:git://github.com/josteitv/nissanconnect-api.git</connection>
+        <developerConnection>scm:git:ssh://github.com:josteitv/nissanconnect-api.git</developerConnection>
+        <url>http://github.com/josteitv/nissanconnect-api/tree/master</url>
     </scm>
 
     <build>
