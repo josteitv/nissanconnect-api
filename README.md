@@ -82,10 +82,17 @@ Add the following config to your Maven settings.xml file:
 </settings>
 ```
 
+### Snapshots
+
 Create and deploy SNAPSHOT
 ```
 $ mvn clean deploy
 ```
+
+Snapshot is now available at
+https://oss.sonatype.org/content/repositories/snapshots/solutions/tveit/nissanconnect/nissanconnect-api/
+
+### Release
 
 Create release and deploy to staging repository
 ```
@@ -99,7 +106,7 @@ $ cd target/checkout
 $ mvn nexus-staging:release
 ```
 
-Drop the staging repository
+Drop the staging repository (if something went wrong)
 ```
 $ cd target/checkout
 $ mvn nexus-staging:drop
