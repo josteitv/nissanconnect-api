@@ -32,7 +32,7 @@
 
     <scm>
         <connection>scm:git:git://github.com/josteitv/nissanconnect-api.git</connection>
-        <developerConnection>scm:git:git://github.com/josteitv/nissanconnect-api.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:josteitv/nissanconnect-api.git</developerConnection>
         <url>http://github.com/josteitv/nissanconnect-api/tree/master</url>
     </scm>
 
