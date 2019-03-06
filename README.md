@@ -1,18 +1,22 @@
 # Nissan Connect API
 
+![Maven Central](https://img.shields.io/maven-central/v/solutions.tveit.nissanconnect/nissanconnect-api.svg)
+[![Build Status](https://travis-ci.org/josteitv/nissanconnect-api.svg?branch=master)](https://travis-ci.org/josteitv/nissanconnect-api)
+[![Known Vulnerabilities](https://snyk.io/test/github/josteitv/nissanconnect-api/badge.svg?targetFile=pom.xml)](https://snyk.io/test/github/josteitv/nissanconnect-api?targetFile=pom.xml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=solutions.tveit.nissanconnect%3Anissanconnect-api&metric=alert_status)](https://sonarcloud.io/dashboard?id=solutions.tveit.nissanconnect%3Anissanconnect-api)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=solutions.tveit.nissanconnect%3Anissanconnect-api&metric=coverage)](https://sonarcloud.io/dashboard?id=solutions.tveit.nissanconnect%3Anissanconnect-api)
+
 A Java library for the Nissan Connect API (also known as Carwings).
 The API is used to get information and remotely control your Nissan Leaf.
 
 ## Installation
-
-**Artifact is not yet deployed to central maven repository**
 
 Add the following dependency to you pom.xml.
 ```xml
 <dependency>
     <groupId>solutions.tveit.nissanconnect</groupId>
     <artifactId>nissanconnect-api</artifactId>
-    <version>1.0.0</version>
+    <version>0.0.2</version>
 </dependency>
 ```
 
