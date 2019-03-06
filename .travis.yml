@@ -1,0 +1,13 @@
+language: java
+
+jdk:
+    - oraclejdk8
+
+addons:
+    sonarcloud:
+        organization: "josteitv-github"
+        token:
+            secure: "fP5aZ0WpL5ckrN9U+TsXMokU9BqGQMN++t0kNmpgn0VqvU2LF5r6n8AjUUChWzojLt271NobiMPT1Q9h69NKp+WKzRShlBals/XoYvCWWfvEH2iVq176TukmWni0dFWKnKc4df3Yuz+tPVC9cDpq2xP2zqst/zQqoCFxYK3eXljnlz9/SsYHuYhPk8foL9yAQhT1ZcwZqADwQx8wFuNYZTS3kGSu3iDXE0pISWtuerrCEe5lQUxIqoaHXEjLOB2iYS3UuWBWfUwirhkDAWE59vkX3mlmU531SbGwT89fmmDKtT+K1BfFIrg02qNnkxQXHg2UJ9ZFrQ7cM2Zak9kwg87751787kdFtItsuX1tITFLAIjTLmsdMRt5ZCVAFKHUzNy7QDgeEPsNNGClMQiAlmt/gorJZLih48jthu3n5ZtkJMhOctq3YmE9VmOlVsSc2Us39mQMw6pC4w7K0GiJFg6wpXh8dmnYLrWjcQKlelTYCIC7nXm0/o14+6323BjhaD1Tkq0GJomPlRAtU5BdNwJwq6fxbZg2qx7OxS6WyYRMFQtDVz3T9QH9YEeB9zLFxf5Sz0KV8AZyhmRRR+HImx9rOG0ty1KcuX61TfjUd65wU+OQNsE+4l1AhAMm4fZHnHawDpxxIALQ7I38gnRNW5qJyEkHx22txiMTksUB6PI="
+script:
+    # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+    - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
