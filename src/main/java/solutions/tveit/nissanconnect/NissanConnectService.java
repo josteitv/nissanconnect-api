@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 
 public class NissanConnectService {
 
-    private static final String BASE_URL = "https://gdcportalgw.its-mo.com/gworchest_160803EC/gdc/";
+    private static final String BASE_URL = "https://gdcportalgw.its-mo.com/api_v190426_NE/gdc/";
 
     private final NissanConnectApi api;
     private LoginInfo loginInfo;
