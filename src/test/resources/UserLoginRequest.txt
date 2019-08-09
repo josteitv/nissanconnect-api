@@ -1,1 +1,1 @@
-RegionCode=NE&lg=en-US&initial_app_strings=geORNtsZe5I4lRGjG9GZiA&UserId=userId&Password=8bldW82d2d5QL04P52m33Q%3D%3D
+RegionCode=NE&lg=en-US&initial_app_str=9s5rfKVuMrT03RtzajWNcA&UserId=userId&Password=8bldW82d2d5QL04P52m33Q%3D%3D
