@@ -18,7 +18,7 @@ import java.util.Base64;
 class LoginService {
 
     private final String defaultLanguage = "en-US";
-    private final String initialAppStrings = "geORNtsZe5I4lRGjG9GZiA";
+    private final String initialAppStrings = "9s5rfKVuMrT03RtzajWNcA";
 
     private final NissanConnectApi api;
 

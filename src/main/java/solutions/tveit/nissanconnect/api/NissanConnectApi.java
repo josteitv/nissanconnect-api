@@ -17,12 +17,12 @@ import solutions.tveit.nissanconnect.api.userlogin.UserLoginResponse;
 public interface NissanConnectApi {
 
     @FormUrlEncoded
-    @POST("InitialApp.php")
-    Call<InitialAppResponse> initialApp(@Field("RegionCode") String regionCode, @Field("lg") String language, @Field("initial_app_strings") String initialAppStrings);
+    @POST("InitialApp_v2.php")
+    Call<InitialAppResponse> initialApp(@Field("RegionCode") String regionCode, @Field("lg") String language, @Field("initial_app_str") String initialAppStrings);
 
     @FormUrlEncoded
     @POST("UserLoginRequest.php")
-    Call<UserLoginResponse> userLoginRequest(@Field("RegionCode") String regionCode, @Field("lg") String language, @Field("initial_app_strings") String initialAppStrings, @Field("UserId") String userId, @Field("Password") String encryptedPassword);
+    Call<UserLoginResponse> userLoginRequest(@Field("RegionCode") String regionCode, @Field("lg") String language, @Field("initial_app_str") String initialAppStrings, @Field("UserId") String userId, @Field("Password") String encryptedPassword);
 
     @FormUrlEncoded
     @POST("BatteryStatusRecordsRequest.php")
