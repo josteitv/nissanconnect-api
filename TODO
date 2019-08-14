@@ -1,0 +1,5 @@
+
+https://oss.sonatype.org
+
+- Specify content of MANIFEST.MF file
+  - Remove Build-By
