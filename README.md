@@ -1,4 +1,5 @@
 # Nissan Connect API
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 ![Maven Central](https://img.shields.io/maven-central/v/solutions.tveit.nissanconnect/nissanconnect-api.svg)
 [![Build Status](https://travis-ci.org/josteitv/nissanconnect-api.svg?branch=master)](https://travis-ci.org/josteitv/nissanconnect-api)
@@ -119,3 +120,19 @@ $ mvn nexus-staging:drop
 For more information see
 https://central.sonatype.org/pages/apache-maven.html
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ToineSiebelink"><img src="https://avatars1.githubusercontent.com/u/17005440?v=4" width="100px;" alt="ToineSiebelink"/><br /><sub><b>ToineSiebelink</b></sub></a><br /><a href="https://github.com/josteitv/nissanconnect-api/issues?q=author%3AToineSiebelink" title="Bug reports">🐛</a> <a href="https://github.com/josteitv/nissanconnect-api/commits?author=ToineSiebelink" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
