@@ -4,7 +4,7 @@
 
     <groupId>solutions.tveit.nissanconnect</groupId>
     <artifactId>nissanconnect-api</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.3</version>
     <packaging>jar</packaging>
 
     <name>Nissan Connect API</name>
@@ -32,7 +32,7 @@
         <connection>scm:git:git://github.com/josteitv/nissanconnect-api.git</connection>
         <developerConnection>scm:git:git@github.com:josteitv/nissanconnect-api.git</developerConnection>
         <url>http://github.com/josteitv/nissanconnect-api/tree/master</url>
-        <tag>HEAD</tag>
+        <tag>nissanconnect-api-0.0.3</tag>
     </scm>
 
     <distributionManagement>
