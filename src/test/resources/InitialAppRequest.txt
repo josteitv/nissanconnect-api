@@ -1,1 +1,1 @@
-RegionCode=NE&lg=en-US&initial_app_strings=geORNtsZe5I4lRGjG9GZiA
+RegionCode=NE&lg=en-US&initial_app_str=9s5rfKVuMrT03RtzajWNcA
