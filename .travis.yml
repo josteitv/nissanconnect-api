@@ -1,9 +1,10 @@
 language: java
 
-dist: trusty
+dist: xenial
 
 jdk:
-    - oraclejdk8
+    - openjdk8
+    - openjdk11
 
 addons:
     sonarcloud:
